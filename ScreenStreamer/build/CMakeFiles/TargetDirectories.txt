@@ -1,0 +1,3 @@
+C:/Users/Administrator/Desktop/fork/lagless/ScreenStreamer/build/CMakeFiles/ScreenStreamer.dir
+C:/Users/Administrator/Desktop/fork/lagless/ScreenStreamer/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Administrator/Desktop/fork/lagless/ScreenStreamer/build/CMakeFiles/ZERO_CHECK.dir

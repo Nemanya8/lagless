@@ -1,0 +1,10 @@
+^C:\USERS\ADMINISTRATOR\DESKTOP\FORK\LAGLESS\SCREENSTREAMER\BUILD\CMAKEFILES\114069BEDC6A4BF5B7ECEE15060BFA35\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Administrator/Desktop/fork/lagless/ScreenStreamer -BC:/Users/Administrator/Desktop/fork/lagless/ScreenStreamer/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Administrator/Desktop/fork/lagless/ScreenStreamer/build/ScreenStreamer.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
